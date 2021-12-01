@@ -1,0 +1,12 @@
+# Dependency directories
+node\_modules
+package-lock.json
+
+# source code
+lib
+.eslintrc
+.eslintignore
+.prettierrc
+.prettierignore
+.gitignore
+tsconfig.json
