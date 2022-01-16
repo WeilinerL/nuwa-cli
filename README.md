@@ -22,5 +22,7 @@ tar -zxvf nuwa-cli.tar.gz
 ```
 4. 启动项目
 ```
-./nuwa-cli/bin/docker/start
+chmod +x ./nuwa-cli-0.0.1-demo/bin/docker/start.sh
+cd ./nuwa-cli-0.0.1-demo/bin/docker
+./start.sh
 ```
