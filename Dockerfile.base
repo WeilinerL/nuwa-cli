@@ -1,0 +1,15 @@
+FROM centos
+
+# 安装基础工具库
+RUN yum -y install wget gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel make
+
+# 安装nvm
+RUN wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+# 安装nginx
+RUN wget -c https://nginx.org/download/nginx-1.20.2.tar.gz \
+  && tar -zxvf nginx-1.20.2.tar.gz \
+  && cd nginx-1.20.2 \
+  && ./configure \ 
+  && make install CFLAGS="-Wno-error" \
+  && whereis nginx

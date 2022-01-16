@@ -1,7 +1,7 @@
 {
   "name": "nuwa-cli",
   "version": "1.0.0",
-  "description": "project initialization tool",
+  "description": "project initialization、CD framework",
   "main": "dist/lib/library.js",
   "bin": "bin/nuwa-cli",
   "scripts": {
