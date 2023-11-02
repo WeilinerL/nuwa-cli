@@ -1,4 +1,10 @@
 FROM centos
+# Centos8于2021年年底停止了服务，大家再在使用yum源安装时候，出现下面错误
+# “错误：Failed to download metadata for repo ‘AppStream’: Cannot prepare internal mirrorlist: No URLs in mirrorlist”
+# 解决方案：https://stackoverflow.com/questions/70963985/error-failed-to-download-metadata-for-repo-appstream-cannot-prepare-internal
+RUN cd /etc/yum.repos.d/
+RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
 
 # 安装基础工具库
 RUN yum -y install wget gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel make
