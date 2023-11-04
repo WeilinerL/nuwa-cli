@@ -1,7 +1,6 @@
 #!/bin/bash
 
-sudo chmod +x ./install.sh 
-sudo chmod +x ./local-registry.sh
+sudo chmod +x ./uninstall.sh ./install.sh ./local-registry.sh
 
 # 1. 卸载已有docker
 # 2. 安装docker

@@ -7,7 +7,7 @@ systemctl stop docker
 docker_packages=$(rpm -qa | grep docker)
 
 if [ -z "$docker_packages" ]; then
-  echo "未找到任何与Docker相关的软件包。"
+  echo "本地未安装docker"
   exit 0
 fi
 
