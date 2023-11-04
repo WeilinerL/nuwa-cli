@@ -1,0 +1,25 @@
+{
+  "name": "nuwa-cli-workbench",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "dev": "yarn run clean && tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/WeilinerL/nuwa-cli.git"
+  },
+  "author": "WeilinerL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeilinerL/nuwa-cli/issues"
+  },
+  "homepage": "https://github.com/WeilinerL/nuwa-cli#readme",
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^4.5.2"
+  },
+  "packageManager": "yarn@3.1.1"
+}
