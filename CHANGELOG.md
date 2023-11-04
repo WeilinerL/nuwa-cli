@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/WeilinerL/nuwa-cli/compare/v1.0.2...v1.0.3) (2023-11-04)
+
+### 📝 Documentation | 文档
+
+- 添加发布指令 ([34ae166](https://github.com/WeilinerL/nuwa-cli/commit/34ae1665b73f9bc5fd9b3c71447da574887aaaf8))
+
 ## [1.0.2](https://github.com/WeilinerL/nuwa-cli/compare/v1.0.1...v1.0.2) (2023-11-04)
 
 **Note:** Version bump only for package nuwa-cli
