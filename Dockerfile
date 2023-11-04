@@ -13,6 +13,6 @@ RUN source ~/.bashrc \
   && npm install -g yarn
 
 # 添加容器启动脚本
-# !important 注意与/bin/docker/start.sh 中的第19行中启动脚本位置一致
+# !important 注意与/bin/docker/start.sh 中的docker exec -itd nuwa /bin/bash /nuwa/bin/start.sh 启动命令保持一致
 RUN chmod +x /nuwa/bin/start.sh
 CMD ["/nuwa/bin/start.sh"]
