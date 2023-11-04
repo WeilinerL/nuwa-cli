@@ -10,6 +10,10 @@ project initialization、CD framework
 3. npx husky install
 4. yarn run dev
 
+# 发布
+```
+yarn release
+```
 
 # 安装指南
 1. 登录你的CentOS
