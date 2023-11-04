@@ -29,3 +29,12 @@ tar -zxvf nuwa-cli.tar.gz
 ```
 cd ./nuwa-cli-0.0.1-demo/bin/docker && chmod +x ./start.sh && ./start.sh
 ```
+
+# milestone
+- [x] 完成对CentOS服务器的docker初始化安装
+- [x] 服务器本地docker镜像仓库搭建
+- [x] 基础镜像制作（nuwa-base）
+- [ ] [workben搭建] 代码仓库
+- [ ] [workben搭建] 项目配置（git地址、deploy key、web hook、nginx等）
+- [ ] [workben搭建] 服务器web hook node服务搭建（触发项目构建，根据dockerfile生成构建产物）
+- [ ] [workben搭建] 流水线（部署版本控制，支持回滚，版本以文件夹加时间戳的形式存储，支持在线删除之前的版本）
