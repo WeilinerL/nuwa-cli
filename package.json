@@ -7,7 +7,7 @@
   "scripts": {
     "install:sub": "lerna exec yarn",
     "dev": "lerna run dev",
-    "release": "lerna version --conventional-commits --yes"
+    "release": "lerna run --scope='nuwa-cli-workbench' build && lerna version --conventional-commits --yes"
   },
   "lint-staged": {
     "packages/**/*.{js,ts}": [
