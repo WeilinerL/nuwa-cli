@@ -9,7 +9,7 @@
     "strict": true,
     "declaration": true,
     "target": "es6",
-    "suppressImplicitAnyIndexErrors": true
+    "noImplicitAny": true
   },
   "include": ["lib"]
 }
