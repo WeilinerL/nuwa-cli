@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo \"git commit trigger husky pre-commit hook\" && npx lint-staged
+echo \"git commit trigger husky pre-commit hook\" && yarn lint-staged --allow-empty "$1"
