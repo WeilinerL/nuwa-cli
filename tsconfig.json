@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "rootDir": "lib",
+    "rootDir": "packages",
     "lib": ["esnext"],
     "module": "commonjs",
     "outDir": "dist/lib",
@@ -11,5 +11,5 @@
     "target": "es6",
     "noImplicitAny": true
   },
-  "include": ["lib"]
+  "include": ["packages"]
 }

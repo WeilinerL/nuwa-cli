@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "outDir": "dist/lib",
+    "allowJs": true,
+    "strict": true,
+    "declaration": true,
+    "target": "ES5",
+    "noImplicitAny": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
